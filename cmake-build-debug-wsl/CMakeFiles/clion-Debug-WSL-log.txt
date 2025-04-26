@@ -1,0 +1,4 @@
+/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/smiling/project_2 -B /home/smiling/project_2/cmake-build-debug-wsl
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/smiling/project_2/cmake-build-debug-wsl

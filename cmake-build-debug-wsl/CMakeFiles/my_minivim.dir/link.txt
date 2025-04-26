@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/my_minivim.dir/src/main.cpp.o -o /home/smiling/project_2/bin/my_minivim  -lcurses 

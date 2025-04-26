@@ -1,0 +1,36 @@
+"D:\clion\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/clion/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S \\wsl$\Ubuntu-20.04\home\smiling\project_2 -B \\wsl$\Ubuntu-20.04\home\smiling\project_2\cmake-build-debug
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: D:/clion/CLion 2024.2.2/bin/mingw/bin/gcc.exe
+-- Check for working C compiler: D:/clion/CLion 2024.2.2/bin/mingw/bin/gcc.exe - broken
+CMake Error at D:/clion/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "D:/clion/CLion 2024.2.2/bin/mingw/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: '//wsl$/Ubuntu-20.04/home/smiling/project_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k53lwf'
+    
+    Run Build Command(s): "D:/clion/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_19314
+    [1/2] D:\clion\CLION2~1.2\bin\mingw\bin\gcc.exe    -o CMakeFiles\cmTC_19314.dir\testCCompiler.c.obj -c \\wsl$\Ubuntu-20.04\home\smiling\project_2\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-k53lwf\testCCompiler.c
+    FAILED: CMakeFiles/cmTC_19314.dir/testCCompiler.c.obj 
+    D:\clion\CLION2~1.2\bin\mingw\bin\gcc.exe    -o CMakeFiles\cmTC_19314.dir\testCCompiler.c.obj -c \\wsl$\Ubuntu-20.04\home\smiling\project_2\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-k53lwf\testCCompiler.c
+    Assembler messages:
+    Fatal error: can't create CMakeFiles\cmTC_19314.dir\testCCompiler.c.obj: Invalid argument
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
